@@ -1,4 +1,4 @@
-import { ThemeToggle } from "@/components/ThemeToggle";
+import { Navbar } from "@/components/Navbar";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Skills } from "@/components/Skills";
@@ -11,18 +11,34 @@ import { Contact } from "@/components/Contact";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <ThemeToggle />
+      <Navbar />
       
       {/* Main Content */}
-      <main className="relative">
-        <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Achievements />
-        <Resume />
-        <Contact />
+      <main className="relative pt-16">
+        <section id="hero">
+          <Hero />
+        </section>
+        <section id="about">
+          <About />
+        </section>
+        <section id="skills">
+          <Skills />
+        </section>
+        <section id="projects">
+          <Projects />
+        </section>
+        <section id="experience">
+          <Experience />
+        </section>
+        <section id="achievements">
+          <Achievements />
+        </section>
+        <section id="resume">
+          <Resume />
+        </section>
+        <section id="contact">
+          <Contact />
+        </section>
       </main>
 
       {/* Footer */}
