@@ -1,56 +1,56 @@
-import { Award, Trophy, Star, Code, Target, Users } from "lucide-react";
+import { Award, Trophy, Star, Code, Target, Users, Briefcase, GraduationCap } from "lucide-react";
 
 export function Achievements() {
   const achievements = [
     {
-      icon: Trophy,
-      title: "Hackathon Winner",
-      description: "1st Place - FinTech Innovation Challenge 2024",
-      color: "text-yellow-500",
-      bgColor: "bg-yellow-500/10"
-    },
-    {
-      icon: Code,
-      title: "GitHub Streak",
-      description: "200+ days consecutive coding streak",
-      color: "text-green-500",
-      bgColor: "bg-green-500/10"
-    },
-    {
-      icon: Star,
-      title: "LeetCode Rating",
-      description: "1800+ rating, solved 300+ problems",
-      color: "text-orange-500",
-      bgColor: "bg-orange-500/10"
-    },
-    {
-      icon: Award,
-      title: "AWS Certified",
-      description: "Cloud Practitioner Certification",
+      icon: Briefcase,
+      title: "Web Development Intern",
+      description: "Currently working at UptoSkills, gaining hands-on experience",
       color: "text-blue-500",
       bgColor: "bg-blue-500/10"
     },
     {
-      icon: Target,
-      title: "React Certification",
-      description: "Meta React Developer Professional Certificate",
+      icon: GraduationCap,
+      title: "B.Tech CSE Student",
+      description: "5th semester at Sunstone School of Engineering, ADU",
       color: "text-purple-500",
       bgColor: "bg-purple-500/10"
     },
     {
-      icon: Users,
-      title: "Open Source",
-      description: "10+ contributions to popular repositories",
+      icon: Code,
+      title: "Full Stack Projects",
+      description: "Built Zerodha-style platform, Wanderlust, and MyGPT",
+      color: "text-green-500",
+      bgColor: "bg-green-500/10"
+    },
+    {
+      icon: Trophy,
+      title: "MERN Stack Developer",
+      description: "Proficient in MongoDB, Express.js, React.js, Node.js",
+      color: "text-yellow-500",
+      bgColor: "bg-yellow-500/10"
+    },
+    {
+      icon: Target,
+      title: "Finance Tech Explorer",
+      description: "Passionate about combining technology with financial solutions",
+      color: "text-orange-500",
+      bgColor: "bg-orange-500/10"
+    },
+    {
+      icon: Star,
+      title: "Continuous Learner",
+      description: "Actively learning Java, DSA, and modern web technologies",
       color: "text-indigo-500",
       bgColor: "bg-indigo-500/10"
     }
   ];
 
   const stats = [
-    { number: "25+", label: "Projects Completed" },
-    { number: "3", label: "Hackathons Won" },
-    { number: "5", label: "Certifications" },
-    { number: "98%", label: "Client Satisfaction" }
+    { number: "3+", label: "Major Projects" },
+    { number: "1", label: "Current Internship" },
+    { number: "5th", label: "Current Semester" },
+    { number: "2027", label: "Graduation Year" }
   ];
 
   return (

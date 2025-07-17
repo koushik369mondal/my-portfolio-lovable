@@ -4,48 +4,19 @@ export function Experience() {
   const experiences = [
     {
       id: 1,
-      role: "Frontend Developer Intern",
-      company: "TechCorp Solutions",
-      location: "San Francisco, CA",
-      duration: "Jun 2024 - Aug 2024",
+      role: "Web Development Intern",
+      company: "UptoSkills",
+      location: "Remote",
+      duration: "Current",
       type: "Internship",
       description: [
-        "Developed responsive web applications using React and TypeScript",
-        "Collaborated with design team to implement pixel-perfect UI components",
-        "Optimized application performance, reducing load time by 40%",
-        "Participated in code reviews and agile development processes"
+        "Working on hands-on web development projects using modern technologies",
+        "Building real-world applications with React.js and Node.js",
+        "Learning industry best practices and development workflows",
+        "Collaborating with team members on various web development projects",
+        "Gaining experience in full-stack development and project management"
       ],
-      skills: ["React", "TypeScript", "Tailwind CSS", "Git"]
-    },
-    {
-      id: 2,
-      role: "Web Development Freelancer",
-      company: "Self-Employed",
-      location: "Remote",
-      duration: "Jan 2024 - Present",
-      type: "Freelance",
-      description: [
-        "Built custom websites and web applications for small businesses",
-        "Managed client relationships and project timelines independently",
-        "Implemented modern web technologies and best practices",
-        "Delivered projects on time and within budget, achieving 100% client satisfaction"
-      ],
-      skills: ["Full Stack Development", "Client Management", "Project Planning"]
-    },
-    {
-      id: 3,
-      role: "Research Assistant",
-      company: "University Computer Science Department",
-      location: "University Campus",
-      duration: "Sep 2023 - Dec 2023",
-      type: "Research",
-      description: [
-        "Assisted in research on machine learning applications in finance",
-        "Developed data analysis scripts and visualization tools",
-        "Contributed to research paper on algorithmic trading strategies",
-        "Presented findings at university research symposium"
-      ],
-      skills: ["Python", "Data Analysis", "Machine Learning", "Research"]
+      skills: ["React.js", "Node.js", "Express.js", "MongoDB", "JavaScript", "Git"]
     }
   ];
 

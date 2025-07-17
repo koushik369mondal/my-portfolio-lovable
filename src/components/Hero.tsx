@@ -23,15 +23,15 @@ export function Hero() {
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
                 Hi, I'm{" "}
                 <span className="gradient-text">
-                  Alex Johnson
+                  Kaushik Mandal
                 </span>
               </h1>
               <h2 className="text-xl md:text-2xl text-muted-foreground font-medium">
-                Full Stack Developer & Finance Enthusiast
+                Web Development Intern at UptoSkills | B.Tech CSE Student | Tech + Finance Explorer
               </h2>
               <p className="text-lg text-muted-foreground max-w-lg leading-relaxed">
-                Passionate CSE student crafting innovative web solutions and fintech applications. 
-                Building the future, one line of code at a time.
+                B.Tech CSE student passionate about solving real-world problems using full stack web development. 
+                Turning problems into projects one step at a time.
               </p>
             </div>
 
@@ -67,14 +67,20 @@ export function Hero() {
 
             {/* Social Links */}
             <div className="flex gap-4 pt-4">
-              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors">
-                <Github className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors" asChild>
+                <a href="https://github.com/koushik369mondal" target="_blank" rel="noopener noreferrer">
+                  <Github className="h-5 w-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors">
-                <Linkedin className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors" asChild>
+                <a href="https://www.linkedin.com/in/koushik369mondal" target="_blank" rel="noopener noreferrer">
+                  <Linkedin className="h-5 w-5" />
+                </a>
               </Button>
-              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors">
-                <Mail className="h-5 w-5" />
+              <Button variant="ghost" size="icon" className="hover:text-primary transition-colors" asChild>
+                <a href="mailto:koushik369mondal@gmail.com">
+                  <Mail className="h-5 w-5" />
+                </a>
               </Button>
             </div>
           </div>

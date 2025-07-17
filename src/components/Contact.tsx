@@ -41,19 +41,13 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      value: "alex.johnson@email.com",
-      href: "mailto:alex.johnson@email.com"
-    },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "koushik369mondal@gmail.com",
+      href: "mailto:koushik369mondal@gmail.com"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Assam, India",
       href: "#"
     }
   ];
@@ -62,25 +56,19 @@ export function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/koushik369mondal",
       color: "hover:text-gray-900 dark:hover:text-gray-100"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/koushik369mondal",
       color: "hover:text-blue-600"
-    },
-    {
-      icon: Twitter,
-      label: "Twitter",
-      href: "https://twitter.com",
-      color: "hover:text-blue-400"
     },
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:alex.johnson@email.com",
+      href: "mailto:koushik369mondal@gmail.com",
       color: "hover:text-red-500"
     }
   ];
@@ -235,7 +223,7 @@ export function Contact() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-muted-foreground">Timezone</span>
-                  <span className="font-medium">PST (UTC-8)</span>
+                  <span className="font-medium">IST (UTC+5:30)</span>
                 </div>
               </div>
             </div>

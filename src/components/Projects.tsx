@@ -9,63 +9,33 @@ export function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Solar Panel ROI Calculator",
-      description: "A comprehensive web application that calculates the return on investment for solar panel installations, including energy savings, government incentives, and payback periods.",
-      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=600&h=400&fit=crop",
-      tech: ["React", "TypeScript", "Chart.js", "Tailwind CSS"],
+      title: "Zerodha-Style Website",
+      description: "A full-stack trading platform-inspired project with separate frontend, dashboard, and backend. Focused on login/auth, dashboard UI, and user flows.",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
+      tech: ["React.js", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
       tags: ["Web", "Finance"],
-      liveDemo: "#",
-      github: "#"
+      liveDemo: "https://zerodha-fullstack-exao372vh-koushik369mondals-projects.vercel.app/",
+      github: "https://github.com/koushik369mondal"
     },
     {
       id: 2,
-      title: "Expense Tracker Dashboard",
-      description: "Modern expense tracking application with categorization, budget planning, and insightful analytics. Features real-time data visualization and export capabilities.",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      tech: ["Next.js", "MongoDB", "Chart.js", "Node.js"],
-      tags: ["Web", "Finance"],
+      title: "Wanderlust Website",
+      description: "A travel listing website built using EJS and Express, supporting dynamic views and MongoDB storage. Open for GitHub collaboration and improvements.",
+      image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
+      tech: ["Node.js", "Express.js", "EJS", "MongoDB"],
+      tags: ["Web"],
       liveDemo: "#",
-      github: "#"
+      github: "https://github.com/koushik369mondal"
     },
     {
       id: 3,
-      title: "Crypto Portfolio Tracker",
-      description: "Real-time cryptocurrency portfolio tracking with price alerts, performance analytics, and market insights. Built during a weekend hackathon.",
-      image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop",
-      tech: ["React", "REST API", "Firebase", "Material-UI"],
-      tags: ["Web", "Finance", "Hackathon"],
-      liveDemo: "#",
-      github: "#"
-    },
-    {
-      id: 4,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with user authentication, payment integration, inventory management, and responsive design for optimal user experience.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
-      tech: ["MERN Stack", "Stripe", "JWT", "Redux"],
+      title: "MyGPT",
+      description: "A simple AI chatbot using the Grmini API built with Next.js for experimentation with AI integration and prompt handling.",
+      image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
+      tech: ["Next.js", "Grmini API"],
       tags: ["Web"],
-      liveDemo: "#",
-      github: "#"
-    },
-    {
-      id: 5,
-      title: "Weather App PWA",
-      description: "Progressive Web App providing detailed weather forecasts, location-based services, and offline functionality. Optimized for mobile devices.",
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      tech: ["PWA", "Vue.js", "Service Workers", "Weather API"],
-      tags: ["Web"],
-      liveDemo: "#",
-      github: "#"
-    },
-    {
-      id: 6,
-      title: "Stock Analysis Tool",
-      description: "Hackathon winner - AI-powered stock analysis tool providing technical indicators, sentiment analysis, and investment recommendations.",
-      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
-      tech: ["Python", "Flask", "ML", "Alpha Vantage API"],
-      tags: ["Finance", "Hackathon"],
-      liveDemo: "#",
-      github: "#"
+      liveDemo: "https://mygpt.vercel.app/",
+      github: "https://github.com/koushik369mondal"
     }
   ];
 
@@ -122,13 +92,17 @@ export function Projects() {
                 
                 {/* Overlay Buttons */}
                 <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                  <Button size="sm" className="btn-primary">
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Live Demo
+                  <Button size="sm" className="btn-primary" asChild>
+                    <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      Live Demo
+                    </a>
                   </Button>
-                  <Button size="sm" variant="outline" className="bg-white/90 text-black hover:bg-white">
-                    <Github className="h-4 w-4 mr-2" />
-                    Code
+                  <Button size="sm" variant="outline" className="bg-white/90 text-black hover:bg-white" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -161,13 +135,17 @@ export function Projects() {
 
                 {/* Action Buttons */}
                 <div className="flex gap-3 pt-2">
-                  <Button size="sm" className="btn-primary flex-1">
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Live Demo
+                  <Button size="sm" className="btn-primary flex-1" asChild>
+                    <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+                      <ExternalLink className="h-4 w-4 mr-2" />
+                      Live Demo
+                    </a>
                   </Button>
-                  <Button size="sm" variant="outline" className="btn-outline flex-1">
-                    <Github className="h-4 w-4 mr-2" />
-                    Code
+                  <Button size="sm" variant="outline" className="btn-outline flex-1" asChild>
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
+                      <Github className="h-4 w-4 mr-2" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -180,9 +158,11 @@ export function Projects() {
           <p className="text-muted-foreground mb-6">
             Want to see more of my work?
           </p>
-          <Button className="btn-primary" size="lg">
-            <Github className="mr-2 h-4 w-4" />
-            View All Projects on GitHub
+          <Button className="btn-primary" size="lg" asChild>
+            <a href="https://github.com/koushik369mondal" target="_blank" rel="noopener noreferrer">
+              <Github className="mr-2 h-4 w-4" />
+              View All Projects on GitHub
+            </a>
           </Button>
         </div>
       </div>

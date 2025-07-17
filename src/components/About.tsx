@@ -43,15 +43,10 @@ export function About() {
           <div className="card-elevated animate-slide-up">
             <div className="prose prose-lg max-w-none">
               <p className="text-foreground leading-relaxed">
-                I'm a Computer Science Engineering student with a deep passion for web development 
-                and financial technology. Currently pursuing my degree while actively building 
-                innovative projects that combine my love for coding with my interest in finance.
+                I'm Kaushik Mandal, a B.Tech CSE student and a Web Development Intern at UptoSkills. I love solving real-world problems using full stack web development and exploring how tech can improve financial decision-making. I'm currently working on hands-on projects and constantly leveling up my skills in Java, DSA, and MERN.
               </p>
               <p className="text-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring the latest web technologies, 
-                working on fintech projects like solar panel calculators, or contributing to 
-                open-source communities. I believe in the power of technology to solve real-world 
-                problems and create meaningful impact.
+                I believe in learning by building — and I'm turning problems into projects one step at a time. When I'm not coding, you'll find me exploring the latest web technologies, working on finance-tech projects, or diving into stock market analysis and investment strategies.
               </p>
             </div>
           </div>
