@@ -74,7 +74,7 @@ export function Resume() {
               <div className="text-center pb-4 border-b border-border">
                 <h4 className="font-bold text-lg">Kaushik Mandal</h4>
                 <p className="text-muted-foreground">Full Stack Developer & Finance Enthusiast</p>
-                <p className="text-sm text-muted-foreground">kaushik.mandal@email.com • (555) 123-4567</p>
+                <p className="text-sm text-muted-foreground">koushik369mondal@gmail.com • +91 9593295965</p>
               </div>
               
               <div className="space-y-3">
