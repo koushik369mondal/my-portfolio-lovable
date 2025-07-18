@@ -57,7 +57,7 @@ export const Navbar = () => {
               onClick={() => scrollToSection("#hero")}
               className="text-xl font-bold text-foreground hover:text-primary transition-colors"
             >
-              Alex Johnson
+              Kaushik Mandal
             </button>
           </div>
 
