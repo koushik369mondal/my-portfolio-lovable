@@ -8,8 +8,7 @@ export function Resume() {
   };
 
   const handleView = () => {
-    // In a real app, this would open the resume in a new tab or modal
-    console.log("Opening resume viewer...");
+    window.open("https://d3s27eh1wskpwv.cloudfront.net/placement/Kaushik_Mandal_cv_5024.pdf", "_blank");
   };
 
   return (
@@ -37,7 +36,7 @@ export function Resume() {
           {/* Resume Info */}
           <div className="space-y-4">
             <h3 className="text-2xl font-semibold text-foreground">
-              Alex Johnson - Full Stack Developer
+              Kaushik Mandal - Full Stack Developer
             </h3>
             <p className="text-muted-foreground max-w-lg mx-auto">
               Comprehensive overview of my education, experience, skills, and projects. 
@@ -73,22 +72,22 @@ export function Resume() {
           <div className="mt-8 p-6 bg-muted/50 rounded-lg border-2 border-dashed border-border">
             <div className="space-y-4 text-left max-w-2xl mx-auto">
               <div className="text-center pb-4 border-b border-border">
-                <h4 className="font-bold text-lg">Alex Johnson</h4>
+                <h4 className="font-bold text-lg">Kaushik Mandal</h4>
                 <p className="text-muted-foreground">Full Stack Developer & Finance Enthusiast</p>
-                <p className="text-sm text-muted-foreground">alex.johnson@email.com • (555) 123-4567</p>
+                <p className="text-sm text-muted-foreground">kaushik.mandal@email.com • (555) 123-4567</p>
               </div>
               
               <div className="space-y-3">
                 <div>
                   <h5 className="font-semibold text-sm uppercase tracking-wider text-primary mb-2">Education</h5>
                   <p className="text-sm">Bachelor of Technology - Computer Science Engineering</p>
-                  <p className="text-xs text-muted-foreground">Expected Graduation: May 2025 • GPA: 3.8/4.0</p>
+                  <p className="text-xs text-muted-foreground">Expected Graduation: May 2025 • Current SGPA: 8.84/10</p>
                 </div>
                 
                 <div>
                   <h5 className="font-semibold text-sm uppercase tracking-wider text-primary mb-2">Experience</h5>
-                  <p className="text-sm">Frontend Developer Intern - TechCorp Solutions</p>
-                  <p className="text-xs text-muted-foreground">June 2024 - August 2024</p>
+                  <p className="text-sm">Intern - UptoSkills</p>
+                  <p className="text-xs text-muted-foreground">June 2025 - September 2025 (Current)</p>
                 </div>
                 
                 <div>
