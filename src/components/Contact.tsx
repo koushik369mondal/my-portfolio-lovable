@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Send, Mail, Github, Linkedin, Twitter, MapPin, Phone } from "lucide-react";
+import { Send, Mail, Github, Linkedin, Twitter, MapPin, Phone, Instagram, Chrome } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -119,16 +119,28 @@ export function Contact() {
       color: "hover:text-blue-600"
     },
     {
-      icon: Mail,
+      icon: Chrome,
       label: "Google Dev",
       href: "https://g.dev/koushik369mondal",
       color: "hover:text-green-500"
     },
     {
-      icon: Twitter,
+      icon: Instagram,
       label: "Instagram", 
       href: "https://www.instagram.com/koushik369mondal/",
       color: "hover:text-pink-500"
+    },
+    {
+      icon: Mail,
+      label: "Email",
+      href: "mailto:koushik369mondal@gmail.com",
+      color: "hover:text-red-500"
+    },
+    {
+      icon: Twitter,
+      label: "Twitter",
+      href: "https://x.com/Koushik369m",
+      color: "hover:text-blue-400"
     }
   ];
 
