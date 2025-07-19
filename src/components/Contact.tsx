@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { Send, Mail, Github, Linkedin, Twitter, MapPin, Phone, Instagram, Chrome } from "lucide-react";
+import { Send, Mail, Github, Linkedin, Twitter, MapPin, Phone, Instagram } from "lucide-react";
+import GoogleDevIcon from "@/assets/google-developers.svg";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -119,7 +120,7 @@ export function Contact() {
       color: "hover:text-blue-600"
     },
     {
-      icon: Chrome,
+      icon: () => <img src={GoogleDevIcon} alt="Google Developers" className="h-5 w-5" />,
       label: "Google Dev",
       href: "https://g.dev/koushik369mondal",
       color: "hover:text-green-500"
