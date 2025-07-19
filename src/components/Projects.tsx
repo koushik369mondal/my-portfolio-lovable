@@ -14,8 +14,8 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop",
       tech: ["React.js", "Tailwind CSS", "Node.js", "Express", "MongoDB"],
       tags: ["Web", "Finance"],
-      liveDemo: "https://zerodha-fullstack-exao372vh-koushik369mondals-projects.vercel.app/",
-      github: "https://github.com/koushik369mondal"
+      liveDemo: "https://zerodha-fullstack.vercel.app/",
+      github: "https://github.com/koushik369mondal/zerodha-fullstack.git"
     },
     {
       id: 2,
@@ -25,7 +25,7 @@ export function Projects() {
       tech: ["Node.js", "Express.js", "EJS", "MongoDB"],
       tags: ["Web"],
       liveDemo: "#",
-      github: "https://github.com/koushik369mondal"
+      github: "https://github.com/koushik369mondal/WanderLust.git"
     },
     {
       id: 3,
@@ -34,8 +34,38 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop",
       tech: ["Next.js", "Grmini API"],
       tags: ["Web"],
-      liveDemo: "https://mygpt.vercel.app/",
-      github: "https://github.com/koushik369mondal"
+      liveDemo: "https://mygpt-weld-zeta.vercel.app/",
+      github: "https://github.com/koushik369mondal/MyGPT"
+    },
+    {
+      id: 4,
+      title: "Weather Website",
+      description: "A responsive weather application that provides real-time weather information with a clean and intuitive user interface.",
+      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
+      tech: ["HTML", "CSS", "JavaScript", "Weather API"],
+      tags: ["Web"],
+      liveDemo: "https://koushik369mondal.github.io/WeatherApp/",
+      github: "https://github.com/koushik369mondal/WeatherApp.git"
+    },
+    {
+      id: 5,
+      title: "Signature Downloader",
+      description: "A simple web tool that allows users to create and download custom signatures with various styling options.",
+      image: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=600&h=400&fit=crop",
+      tech: ["HTML", "CSS", "JavaScript"],
+      tags: ["Web"],
+      liveDemo: "https://koushik369mondal.github.io/Signnature-Downloader/",
+      github: "https://github.com/koushik369mondal/Signnature-Downloader"
+    },
+    {
+      id: 6,
+      title: "Todo Website",
+      description: "A clean and functional todo application for managing daily tasks with add, edit, and delete functionality.",
+      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
+      tech: ["HTML", "CSS", "JavaScript"],
+      tags: ["Web"],
+      liveDemo: "https://koushik369mondal.github.io/ToDoApp/",
+      github: "https://github.com/koushik369mondal/ToDoApp"
     }
   ];
 

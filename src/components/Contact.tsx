@@ -92,6 +92,12 @@ export function Contact() {
       href: "mailto:koushik369mondal@gmail.com"
     },
     {
+      icon: Phone,
+      label: "Phone",
+      value: "+91 9593295965",
+      href: "tel:+919593295965"
+    },
+    {
       icon: MapPin,
       label: "Location",
       value: "Assam, India",
@@ -114,9 +120,15 @@ export function Contact() {
     },
     {
       icon: Mail,
-      label: "Email",
-      href: "mailto:koushik369mondal@gmail.com",
-      color: "hover:text-red-500"
+      label: "Google Dev",
+      href: "https://g.dev/koushik369mondal",
+      color: "hover:text-green-500"
+    },
+    {
+      icon: Twitter,
+      label: "Instagram", 
+      href: "https://www.instagram.com/koushik369mondal/",
+      color: "hover:text-pink-500"
     }
   ];
 

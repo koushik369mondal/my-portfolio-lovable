@@ -93,7 +93,7 @@ export function Resume() {
                 <div>
                   <h5 className="font-semibold text-sm uppercase tracking-wider text-primary mb-2">Skills</h5>
                   <p className="text-xs text-muted-foreground">
-                    React, TypeScript, Node.js, MongoDB, Python, AWS, Git...
+                    HTML/CSS, Python, React.js, Node.js, MongoDB, JavaScript, Java, Git & GitHub, No-Code Development, Postman
                   </p>
                 </div>
               </div>
