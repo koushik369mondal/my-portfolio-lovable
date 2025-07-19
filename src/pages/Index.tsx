@@ -49,7 +49,7 @@ const Index = () => {
               Built with ❤️ using React, TypeScript, and Tailwind CSS
             </p>
             <p className="text-sm text-muted-foreground">
-              © 2024 Kaushik Mandal. All rights reserved.
+              © 2025 Kaushik Mandal. All rights reserved.
             </p>
           </div>
         </div>
