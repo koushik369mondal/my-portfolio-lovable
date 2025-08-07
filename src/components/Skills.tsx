@@ -139,6 +139,37 @@ const TechIcons = {
   ),
 };
 
+// Documentation URLs for each technology
+const TechDocs = {
+  // Frontend
+  "HTML": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+  "CSS": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+  "JavaScript": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "React.js": "https://react.dev/",
+  "Tailwind CSS": "https://tailwindcss.com/docs",
+  "Bootstrap": "https://getbootstrap.com/docs/",
+  "Vite": "https://vitejs.dev/guide/",
+
+  // Backend
+  "Node.js": "https://nodejs.org/en/docs/",
+  "Express.js": "https://expressjs.com/",
+  "MongoDB": "https://docs.mongodb.com/",
+  "REST APIs": "https://restfulapi.net/",
+  "EJS": "https://ejs.co/",
+
+  // Tools & Others
+  "Git & GitHub": "https://docs.github.com/en",
+  "Postman": "https://learning.postman.com/docs/",
+  "Java": "https://docs.oracle.com/en/java/",
+  "DSA": "https://www.geeksforgeeks.org/data-structures/",
+
+  // Learning & Interests
+  "MERN Stack": "https://www.mongodb.com/mern-stack",
+  "Finance Tech": "https://www.investopedia.com/fintech-4689240",
+  "Stock Market Analysis": "https://www.investopedia.com/technical-analysis-4689657",
+  "Green Tech": "https://www.energy.gov/eere/renewable-energy",
+  "Solar Tech": "https://www.energy.gov/eere/solar/solar-energy-technologies-office"
+};
 export function Skills() {
   const skillCategories = [
     {
@@ -163,6 +194,12 @@ export function Skills() {
     }
   ];
 
+  const handleSkillClick = (skill: string) => {
+    const docUrl = TechDocs[skill as keyof typeof TechDocs];
+    if (docUrl) {
+      window.open(docUrl, '_blank', 'noopener,noreferrer');
+    }
+  };
   return (
     <section id="skills" className="section-container bg-muted/30">
       <div className="max-w-6xl mx-auto">
@@ -173,6 +210,9 @@ export function Skills() {
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             A comprehensive toolkit for building modern web applications and fintech solutions
+          </p>
+          <p className="text-muted-foreground text-sm mt-2">
+            Click on any skill to view its official documentation
           </p>
         </div>
 
@@ -198,7 +238,8 @@ export function Skills() {
                     <Badge 
                       key={skill}
                       variant="secondary"
-                      className="px-3 py-2 text-sm font-medium bg-secondary/80 hover:bg-secondary transition-all hover:scale-105 duration-200 flex items-center gap-2"
+                      className="px-3 py-2 text-sm font-medium bg-secondary/80 hover:bg-secondary transition-all hover:scale-105 duration-200 flex items-center gap-2 cursor-pointer"
+                      onClick={() => handleSkillClick(skill)}
                       style={{ animationDelay: `${(categoryIndex * 200) + (skillIndex * 50)}ms` }}
                     >
                       {IconComponent && <IconComponent />}
