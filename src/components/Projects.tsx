@@ -24,7 +24,7 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop",
       tech: ["Node.js", "Express.js", "EJS", "MongoDB"],
       tags: ["Web"],
-      liveDemo: "#",
+      liveDemo: "https://wanderlust-6yh1.onrender.com/listings",
       github: "https://github.com/koushik369mondal/WanderLust.git"
     },
     {
