@@ -4,6 +4,23 @@ export function Experience() {
   const experiences = [
     {
       id: 1,
+      role: "Project Admin & Contributor",
+      company: "GirlScript Summer of Code 2025",
+      location: "Remote",
+      duration: "July 2025 - Present",
+      type: "Open Source",
+      description: [
+        "Serving as Project Admin for the Wanderlust open-source project under GSSoC 2025",
+        "Leading project development, coordinating with mentors and contributors, managing tasks, and maintaining documentation",
+        "Reviewing pull requests and ensuring smooth collaboration in a remote open-source environment",
+        "Selected as a Contributor for GSSoC 2025, actively contributing to open-source projects using the MERN stack",
+        "Collaborated with developers and mentors across the country on impactful, community-driven solutions",
+        "Strengthened skills in full-stack development, Git/GitHub version control, and real-world software collaboration"
+      ],
+      skills: ["Open Source", "MERN Stack", "Git & GitHub", "Documentation", "Remote Collaboration", "Project Management"]
+    },
+    {
+      id: 2,
       role: "Web Development Intern",
       company: "UptoSkills",
       location: "Remote",
@@ -24,6 +41,8 @@ export function Experience() {
     switch (type) {
       case "Internship":
         return "bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300";
+      case "Open Source":
+        return "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300";
       case "Freelance":
         return "bg-green-100 text-green-800 dark:bg-green-900/30 dark:text-green-300";
       case "Research":
